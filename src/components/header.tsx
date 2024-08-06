@@ -1,8 +1,8 @@
-import { MenuIcon } from "lucide-react";
-import Image from "next/image";
+import { MenuIcon } from 'lucide-react'
+import Image from 'next/image'
 
-import { Button } from "./ui/button";
-import { Card, CardContent } from "./ui/card";
+import { Button } from './ui/button'
+import { Card, CardContent } from './ui/card'
 
 export default function Header() {
   return (
@@ -14,10 +14,10 @@ export default function Header() {
           height={18}
           alt="FSW Barber"
         />
-        <Button size={"icon"} variant={"outline"}>
+        <Button size={'icon'} variant={'outline'}>
           <MenuIcon />
         </Button>
       </CardContent>
     </Card>
-  );
+  )
 }
